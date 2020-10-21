@@ -1,0 +1,96 @@
+*{
+	padding : 0;
+	margin : 0;
+}
+body{
+	/*background-color: #FFA07A50 ;*/
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-position: left left;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+	overflow-x: hidden;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-fluid {
+	margin-top: 5px;
+	
+}
+#myLogo{
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	margin : 0 auto;
+	
+
+}
+
+#myimage{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	box-shadow: 3px 3px 10px #FFFDFC, -5px -5px 10px black ;
+}
+
+#info{
+	color : white;
+	width: 100%;
+	border-radius: 10px;
+	padding : 10px;
+	box-shadow: inset 3px 3px 10px black , inset -3px -3px 10px white;
+}
+#social-Icons {
+     
+     margin-bottom: 20px;
+}
+
+          .fa-facebook-square,.fa-google,.fa-twitter{
+          	
+          	 
+          	border : 2px solid #FFA07A;
+          	text-align: center;
+          	border-radius: 50%;
+         	padding: 10px;
+         	font-size: 15px;
+         	cursor: pointer;
+         	color : #FFA07A;
+         	transition: all 0.5s ease-in;
+         }
+         .fa-facebook-square:hover,.fa-google:hover,.fa-twitter:hover {
+         	border : 2px solid white;
+         	background-color: #CD5C5C;
+         	color :white;
+         
+         }
+         .card{
+         	margin-bottom: 30px;
+         	width: 100%;
+         	padding: 20px;
+         	color : white;
+         	box-shadow: inset 2px  2px 5px black, inset -2px -2px 5px white;
+         	border-radius: 20px;
+         }
+
+         .card-img-top{
+         	box-shadow: 3px 3px 10px black , -3px -3px 10px white;
+         	height: 100px;
+         	width: 100px;
+         	border-radius: 100%;
+         	
+         }
+
+
+@media screen and (max-width: 500px) {
+	body{
+		overflow-x: hidden;
+	}
+
+  .card {
+      margin-left: 20%;
+  }
+
+}
